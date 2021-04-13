@@ -1,0 +1,2447 @@
+<!DOCTYPE html>
+<html class=" portrait">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ether Miracle</title>
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <link rel="shortcut icon" href="static/diamond.png" type="image/x-icon">
+    <style>
+        .subpage-purchase .ui.label, [data-is="subpage-purchase"] .ui.label {
+            text-align: center
+        }
+
+        subpage-purchase .ui.label .icon.ethereum, [data-is="subpage-purchase"] .ui.label .icon.ethereum {
+            text-align: center;
+            margin: 0
+        }
+
+        subpage-purchase .purchas-keys-buttons, [data-is="subpage-purchase"] .purchas-keys-buttons {
+            display: flex;
+            flex-wrap: nowrap
+        }
+
+        subpage-purchase .purchas-keys-buttons div, [data-is="subpage-purchase"] .purchas-keys-buttons div {
+            line-height: 1.5rem;
+            flex: 1;
+            text-align: center;
+            border: 1px solid #ff8031;
+            border-right: 0
+        }
+
+        subpage-purchase .purchas-keys-buttons div:nth-child(1), [data-is="subpage-purchase"] .purchas-keys-buttons div:nth-child(1) {
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px
+        }
+
+        subpage-purchase .purchas-keys-buttons div, [data-is="subpage-purchase"] .purchas-keys-buttons div {
+            color: #d37d4a;
+            margin-top: 1.5rem;
+            transition: .3s ease-in-out all;
+            cursor: pointer
+        }
+
+        subpage-purchase .purchas-keys-buttons div:hover, [data-is="subpage-purchase"] .purchas-keys-buttons div:hover {
+            background: #ff8031;
+            color: white
+        }
+
+        subpage-purchase .purchas-keys-buttons div:last-child, [data-is="subpage-purchase"] .purchas-keys-buttons div:last-child {
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-right: 1px solid #ff8031
+        }
+
+        subpage-purchase .purchas-keys-buttons div:nth-child(1), [data-is="subpage-purchase"] .purchas-keys-buttons div:nth-child(1), subpage-purchase .purchas-keys-buttons div:nth-child(2), [data-is="subpage-purchase"] .purchas-keys-buttons div:nth-child(2) {
+            flex: 1;
+            line-height: 3rem
+        }
+
+        .list-line div {
+            line-height: 30px;
+            height: 30px;
+        }
+
+        .divider {
+            height: 1px;
+            line-height: 1px;
+            border-bottom: 1px solid rgba(255, 255, 255, .1)
+        }
+    </style>
+    <script src="static/es5-shim.js"></script>
+    <script src="static/es5-sham.js"></script>
+    <script type="text/javascript" src="static/object-assign.min.js"></script>
+    <script type="text/javascript" src="static/promise.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>        // Polyfill, modifying the global Object        window.ObjectAssign.polyfill();</script>
+    <link rel="stylesheet" type="text/css" href="static/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="static/animate.css">
+    <link type="text/css" href="static/play.built.e5ed944c.cache.css" rel="stylesheet" media="all">
+    <script type="text/javascript" src="static/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="static/bootstrap.min.js"></script>
+    <!--    <link type="text/css" href="static/css" rel="stylesheet">-->
+    <link type="text/css" href="static/global_main.css" rel="stylesheet">
+    <link type="text/css" href="static/styles.css" rel="stylesheet">
+</head>
+
+
+<body class="body_IKNfg9" data-c_tl_id="M_f331b169de5a3709">
+<div class="container-fluid cst_sectionBlock cst_BGtransparent cst_h100 cst_flex_vetically c-section cbsect_54159fa6 c-scrollIn"
+     data-c_tl_id="tl_b21c2499" id="sectiond18c10cd">
+    <div class="cst_sectionBGwrap c-div cbdiv_7e01c45d">
+        <div class="cst_sectionBG cst_BGfixed c-div cbdiv_c385b961" src="static/bg_top.jpg"
+             style="background-image: url(static/bg_top.jpg); ">
+            <div class="cst_overlay c-div cbdiv_8264f72e"></div>
+        </div>
+    </div>
+    <div class="container cst_container_base c-container-1 cbcont_8bfe2c22">
+        <div class="cst_textbox_flex cst_border_shadow_setting c-div cbdiv_5708702a">
+            <div class="cst_flexitem cst_flexsetting cst_flex_vetically c-div cbdiv_8e5537d7">
+                <div class="cst_textSetting cst_textWrap c-div cbdiv_09838257">
+                    <img class="cst_figure c-image cbimag_292c9376" src="static/diamond.png">
+                    <div class="c-div cbdiv_ad231756">
+                        <h1 class="cst_subtitle c-heading cbhead_975d5cc9 zi"><img src="static/zi.png"></h1>
+                        <h1 class="cst_subtitle c-heading cbhead_975d5cc92">
+                            <div style=" color:#d1fbff; font-size:1.5rem;">DeFi - Ethereum Team</div>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--奖池倒计时-->
+
+<div class="container-fluid cst_sectionBlock c-section cbsect_b819922c" data-c_tl_id="tl_50eacca7" id="section219b0d83">
+    <div class="container cst_container_base c-container-1 cbcont_d272dd25">
+        <div class="cst_textbox_flex cst_border_shadow_setting c-div cbdiv_c60cec79">
+            <div class="cst_flexitem cst_flexsetting cst_flex_vetically c-div cbdiv_cb07be5e">
+                <div class="cst_textSetting cst_textWrap c-div cbdiv_f3c42410"><img
+                        class="cst_figure c-image cbimag_a807284e " src="static/background.png">
+                    <div class="c-div cbdiv_9546ed59">
+                        <h1 class="cst_title c-heading youziku-e094346a5670469eaacd0dcc3afa6f0d cbhead_1a6e5827 lan-2"
+                            fontid="46865" accesskey="e094346a5670469eaacd0dcc3afa6f0d">{}</h1>
+                        <h1 class="cst_subtitle c-heading cbhead_45f59816"></h1>
+                    </div>
+                    <p class="cst_description cbpara_e865ad31 lan-3">{}</p>
+                </div>
+            </div>
+        </div>
+        <div class="c-div cbdiv_8eb7ac70">
+            <div class="c-div cbdiv_509e074f">
+                <div style="color:#fff; font-size:1.2rem;">倒計時</div>
+                <div style="margin-top:15px;">
+                    <span style="font-size:12px;margin-right:5px; "> (<span class="b-loop" style="">--</span>) </span>
+                </div>
+                <div style="margin-top:4rem;">
+                    <time style="font-size:30px;" class="countdown" datetime="PT00H00M00S">
+                        <div class="b-dtime" style="font-size:45px; margin-top:-1rem;">--</div>
+                        <div style="border-top:1px solid; width:180px; margin:0 auto;"></div>
+                        <span class="b-pot">--</span><span> ETH</span></time>
+                </div>
+            </div>
+            <div class="hidden-lg hidden-md hidden-sm hidden-xs c-embedcode cbembe_e170897c">
+                <script src="static/jquery.countdown.js"></script>
+                <script>        window.jQuery(function ($) {
+                    "use strict";
+                    $('.cst_countdown').countDown({
+                        with_separators: false,
+                        label_dd: "Days",
+                        label_hh: ":",
+                        label_mm: ":",
+                        label_ss: ""
+                    });
+                });</script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--超级节点-->
+<div class="container-fluid" style=" background:#000; display:block;">
+    <div style="width:90%; margin:0 auto;">
+        <div class="blue-btn"><span class="lan-48">{}</span></div>
+        <div style="text-align:center; margin-bottom:1rem; color:#fff;"><span class="lan-54">{}</span></div>
+        <div class="input-group input-group-lg">
+            <div class="form-control ethinput-ds"> 100</div>
+            <span class="input-group-addon" style="" id="sizing-addon1">ETH</span></div>
+        <div class="bsbtn c-div cs-repeatable S_cbdiv_32835638 text-center"><a
+                class="default bsbtn btn-warning btn S_cbbsbu_96d36c55 buywitheth-cj lan-10" options="btn-warning"
+                sizes="default" type="button"><b>{}</b></a></div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<!--投资-->
+<div class="container-fluid cst_sectionBlock cst_BGtransparent c-section S_cbsect_d9fa97d6" data-c_tl_id="tl_8e98c01a"
+     id="section6f6eaf32">
+    <div class="cst_sectionBGwrap c-div S_cbdiv_99ea0413">
+        <div class="cst_sectionBG c-div S_cbdiv_1659ac1a" style="background-image: url(static/bg_bottom.jpg); ">
+            <div class="cst_overlay c-div S_cbdiv_6d7fb641"></div>
+        </div>
+    </div>
+    <div class="container cst_container_base c-container-1 S_cbcont_03c5f90e">
+        <div class="cst_titleDivider c-div S_cbdiv_2a7ca953">
+            <div class="cst_textWrap c-div S_cbdiv_a0144aac blue-btn">
+                <h3 class="cst_title c-heading youziku-e094346a5670469eaacd0dcc3afa6f0d S_cbhead_58654bd0 lan-4"
+                    fontid="46865" accesskey="e094346a5670469eaacd0dcc3afa6f0d" style="margin-top:-0.3px;">{}</h3>
+            </div>
+
+        </div>
+        <div class="cst_Divider c-div S_cbdiv_1d4fcf5b"></div>
+        <div class="c-div S_cbdiv_2ddb1611">
+            <div class="cst_tabs cst_tabs_borderStyle03 cst_tabs_full c-tabs S_cbtabs_1340c6b1">
+                <ul class="nav nav-tabs c-tabmenu S_cbtabm_afdaea15" role="tablist">
+                    <li checked="True" class="c-tablink active S_cbtabl_1ca35a67" data-c-tab="tab1"><a
+                            class="c-tabtextlink S_cbtabt_e8f1d579 lan-5" data-toggle="tab" href="#tabpane_9153e138"
+                            role="tab">{}</a></li>
+                    <li checked="False" class="c-tablink S_cbtabl_2d686cb7" data-c-tab="tab2"><a
+                            class="c-tabtextlink S_cbtabt_e8f1d579 lan-6" data-toggle="tab" href="#tabpane_fc5c1251"
+                            role="tab">{}</a></li>
+                    <li class="c-tablink S_cbtabl_2d686cb7" data-c-tab="tab2"><a
+                            class="c-tabtextlink S_cbtabt_e8f1d579 lan-7" data-toggle="tab" href="#tabpane9ad7ad27"
+                            role="tab">{}</a></li>
+                    <li checked="False" class="c-tablink S_cbtabl_44c41bee" data-c-tab="tab3"><a
+                            class="c-tabtextlink S_cbtabt_e8f1d579 lan-8" data-toggle="tab" href="#tabpane_de9e5b0c"
+                            role="tab">{}</a></li>
+                </ul>
+                <div class="tab-content c-tabcontent S_cbtabc_0679294a">
+                    <div class="tab-pane c-tabpane active S_cbtabp_e86adce7" data-c-tab="tab1" id="tabpane_9153e138">
+                        <div class="cst_textSetting cst_textWrap c-div S_cbdiv_217b212e">
+                            <div class="c-div S_cbdiv_3fc37d49 text-left"><h4><span class="lan-56">{}</span></h4>
+                                <h4 class="cst_title c-heading youziku-48c15647d6414b1d865b2ee9b7d53df4 S_cbhead_67e4f8de text-left"
+                                    fontid="46863" accesskey="48c15647d6414b1d865b2ee9b7d53df4"><span
+                                        class="lan-9" style="margin-right:5px;">{}</span><span
+                                        style="color:#504cfc;">1ETH=</span><span
+                                        id="oneTokensPerEthDiv10"></span>SRCT</h4>
+                            </div>
+                            <p class="cst_description S_cbpara_bb37b759">
+                            <div class="ui bottom attached tab segment active" data-tab="purchase">
+                                <subpage-purchase>
+                                    <div class="text-center" style="width:100%;margin-bottom:10px;">
+                                        <button type="button" id="ic-input5" class="btn btn-default btn-lg">1ETH
+                                        </button>
+                                        <button type="button" id="ic-input30" class="btn btn-default btn-lg">5 ETH
+                                        </button>
+                                        <button type="button" id="ic-input50" class="btn btn-default btn-lg">10 ETH
+                                        </button>
+                                    </div>
+                                    <div class="input-group input-group-lg">
+                                        <input type="text" id="amount" class="form-control ethinput" placeholder="請輸入金額"
+                                               aria-describedby="sizing-addon1" style="background:#fff;color:#000;">
+                                        <span class="input-group-addon" style="" id="sizing-addon1">ETH</span></div>
+                                </subpage-purchase>
+                            </div>
+                            <br>
+                            </p>
+                            <div class="bsbtn c-div cs-repeatable S_cbdiv_32835638 text-center"><a
+                                    class="default bsbtn btn-warning btn S_cbbsbu_96d36c55 buywitheth lan-10"
+                                    options="btn-warning" sizes="default" type="button">{}</a></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane c-tabpane S_cbtabp_15234bbb" data-c-tab="tab2" id="tabpane_fc5c1251">
+                        <div class="cst_textSetting cst_textWrap c-div S_cbdiv_217b212e">
+                            <div class="c-div S_cbdiv_3fc37d49">
+                                <h4 class="cst_title c-heading youziku-48c15647d6414b1d865b2ee9b7d53df4 S_cbhead_67e4f8de"
+                                    fontid="46863" accesskey="48c15647d6414b1d865b2ee9b7d53df4"><span
+                                        class="lan-11">{}</span> 1ETH=<span id="oneTokensPerEth"></span>SRCT</h4>
+                            </div>
+                            <p class="cst_description S_cbpara_bb37b759">
+                            <div class="input-group input-group-lg">
+                                <input type="text" class="ticket-ethinput form-control" placeholder="請輸入金額"
+                                       aria-describedby="sizing-addon1" style="background:#fff;color:#000;">
+                                <span class="input-group-addon" id="sizing-addon1"><span
+                                        class="ticket-stsinput">0</span>SRCT</span></div>
+                            <br>
+                            </p>
+                            <div class="bsbtn c-div cs-repeatable S_cbdiv_32835638 text-center"><a
+                                    class="default bsbtn btn-warning btn S_cbbsbu_96d36c55 lan-12" options="btn-warning"
+                                    sizes="default" type="button" id="buy-ticket-action">{}</a></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane c-tabpane S_cbtabp_15234bbb" data-c-tab="tab2" id="tabpane9ad7ad27">
+                        <div class="cst_textSetting cst_textWrap c-div S_cbdiv_217b212e">
+                            <p class="cst_description S_cbpara_bb37b759">
+                            <div class="c-div S_cbdiv_e5c2880c cst_richtextList02 cst_richtext_listicon5 S_cbtext_4fcc39ba">
+                                <div class="row" style="line-height:30px;height:30px;">
+                                    <div class="col-xs-12 col-sm-12 col-md-12" style="margin-left:15px;"><i
+                                            style="color:#f0ad4e;" class="fa fa-registered fa-lg"></i><span
+                                            class="lan-13" style="margin:0 15px;">{}</span><span
+                                            class="my-inviter">--</span></div>
+                                </div>
+                                <div class="row" style="line-height:30px;height:30px;">
+                                    <div class="col-xs-12 col-sm-12 col-md-12" style="margin-left:15px;"><i
+                                            style="color:#f0ad4e;" class="fa fa-group fa-lg"></i><span class="lan-14"
+                                                                                                       style="margin:0 15px;">{}</span><span
+                                            class="my-recomand-count">--</span></div>
+                                </div>
+                                <div class="row" style="line-height:30px;height:30px;">
+                                    <div class="col-xs-12 col-sm-12 col-md-12" style="margin-left:15px;"><i
+                                            style="color:#f0ad4e;" class="fa fa-handshake-o fa-lg"></i><span
+                                            class="lan-15" style="margin:0 10px;">{}</span><span
+                                            id="invite-link">--</span></div>
+                                </div>
+                            </div>
+                            <br>
+                            </p>
+                            <div class="bsbtn c-div cs-repeatable S_cbdiv_32835638 text-center"><a id="share-link"
+                                                                                                   data-clipboard-action="copy"
+                                                                                                   data-clipboard-target="#invite-link"
+                                                                                                   class="default bsbtn btn-warning btn S_cbbsbu_96d36c55 lan-16"
+                                                                                                   options="btn-warning"
+                                                                                                   sizes="default"
+                                                                                                   type="button"
+                                                                                                   style="">{}</a></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane c-tabpane S_cbtabp_41a657f1" data-c-tab="tab3" id="tabpane_de9e5b0c">
+                        <div class="cst_textSetting cst_textWrap c-div S_cbdiv_217b212e">
+                            <div class="c-div S_cbdiv_3fc37d49">
+                                <h2 class="cst_title c-heading youziku-48c15647d6414b1d865b2ee9b7d53df4 S_cbhead_67e4f8de"
+                                    fontid="46863" accesskey="48c15647d6414b1d865b2ee9b7d53df4"></h2>
+                                <h3 class="cst_subtitle c-heading S_cbhead_7eadc78d lan-17">{}</h3>
+                            </div>
+                            <div class="cst_richtextListWrap cst_flexLayout_nn1 c-div cs-repeatable S_cbdiv_3f7c3d9d">
+                                <div class="c-div S_cbdiv_e5c2880c">
+                                    <div class="fa  cst_richtextList02 cst_richtext_listicon3 S_cbtext_4fcc39ba">
+                                        <ul>
+                                            <li class="lan-18">{}</li>
+                                            <li class="lan-19">{}</li>
+                                            <li class="lan-20">{}</li>
+                                            <li class="lan-21">{}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="c-div S_cbdiv_e5c2880c">
+                                    <div class="fa cst_richtextList02 cst_richtext_listicon3 S_cbtext_4fcc39ba">
+                                        <ul>
+                                            <li class="lan-22">{}</li>
+                                            <li class="lan-23">{}</li>
+                                            <li class="lan-24">{}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cst_textlinkWrap c-div S_cbdiv_4a301a94"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cst_titleDivider c-div S_cbdiv_07dc1a73">
+            <div class="cst_textWrap c-div S_cbdiv_1c4e177e blue-btn">
+                <h3 class="cst_title c-heading youziku-e094346a5670469eaacd0dcc3afa6f0d S_cbhead_608957d7 lan-25"
+                    fontid="46865" accesskey="e094346a5670469eaacd0dcc3afa6f0d" style="margin-top:-0.3px;">{}</h3>
+            </div>
+        </div>
+
+        <div style="width:150px; margin:0 auto; color:#fff; font-weight:bold; font-size:1.2rem;">
+            <span class="lan-64" style="margin:0 15px;">{}</span><span class="my_level">--</span>
+        </div>
+
+        <div class="cst_Divider c-div S_cbdiv_590a1f0d"></div>
+
+        <div class="cst_mLR-15 cst_hovershadow_Griditem cst_textBox_grid c-div S_cbdiv_06d1e0b6">
+            <div class="cst_grid cst_gridSpace c-grid S_cbgrid_be2eb334">
+                <div class="row cst_textSetting c-row S_cbrow_fd31026d">
+
+                    <!-- 静态收益-->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 c-column c-inline-column S_cbcolu_eac91d10 sybox">
+                        <div class="cst_block_item c-div S_cbdiv_65f1975c">
+                            <div class="cst_textWrap c-div S_cbdiv_52e7916a">
+                                <div class="c-div S_cbdiv_3a0da970" style="border-bottom:1px solid #7a80f5;">
+                                    <h4 class="cst_title c-heading youziku-e094346a5670469eaacd0dcc3afa6f0d S_cbhead_45906a84 lan-26"
+                                        fontid="46865" accesskey="e094346a5670469eaacd0dcc3afa6f0d">{}</h4>
+                                </div>
+                                <div class="cst_textlinkWrap c-div S_cbdiv_f1469b7b" style="margin:10px 10px;">
+                                    <div class="row list-line">
+                                        <div class="col-xs-7 col-sm-7 col-md-7 text-left" style=""><span class="lan-27">{}</span>
+                                        </div>
+                                        <div class="col-xs-5 col-sm-5 col-md-5 text-right" style=""><span class="l101">--</span><span>ETH</span>
+                                        </div>
+
+
+                                        <div class="col-xs-8 col-sm-8 col-md-8 text-left lan-30" style=""><span
+                                                class="lan-30">{}</span></div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4 text-right l102" style="">
+                                            <span>--:--:--</span></div>
+                                        <!--结算移到这-->
+
+                                        <div class="col-xs-5 col-sm-5 col-md-5 text-left" style=""><span class="lan-32">{0}</span>
+                                        </div>
+                                        <div class="col-xs-7 col-sm-7 col-md-7 text-right"
+                                             style="margin-left: -0.5rem;">
+                                            <span class="l106">--</span><span>ETH</span>
+
+                                            <a class="action-finish lan-33 " href="javascript:void(0);"
+                                               style="text-decoration:underline;color:#ffff99;cursor:pointer;">{}</a>
+                                        </div>
+
+                                        <!--结算移到这 结尾-->
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span
+                                                class="lan-70"></span></div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span
+                                                class="l103">--</span> ETH
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span
+                                                class="lan-71"></span></div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span
+                                                class="l104">--</span> ETH
+                                        </div>
+
+                                        <div class="col-xs-7 col-sm-7 col-md-7 text-left" style=""><span>
+                                            <span class="pext-incometimes">3</span><span class="lan-31">{}</span></span>
+                                        </div>
+                                        <div class="col-xs-5 col-sm-5 col-md-5 text-right"><span
+                                                class="l105">--</span><span>ETH</span>
+                                        </div>
+
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span
+                                                class="lan-36"></span></div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span
+                                                class="l107">--</span> ETH
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 text-left" style=""></div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12">
+                                            <button type="button" style="width:100%;"
+                                                    class="btn btn-success my-withdraw-btn lan-37"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 统计-->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 c-column c-inline-column S_cbcolu_eac91d10 sybox2">
+                        <div class="cst_block_item c-div S_cbdiv_65f1975c">
+                            <div class="cst_textWrap c-div S_cbdiv_52e7916a">
+                                <div class="c-div S_cbdiv_3a0da970" style="border-bottom:1px solid;">
+                                    <h4 class="cst_title c-heading youziku-e094346a5670469eaacd0dcc3afa6f0d S_cbhead_45906a84 lan-38"
+                                        fontid="46865" accesskey="e094346a5670469eaacd0dcc3afa6f0d">{}</h4>
+                                </div>
+                                <div class="cst_textlinkWrap c-div S_cbdiv_f1469b7b" style="margin:10px 10px;">
+                                    <div class="row list-line">
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span
+                                                class="lan-65">{}</span></div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span class="l201">--</span>
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span
+                                                class="lan-66">{}</span></div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span class="l202">--</span>ETH
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span class="lan-67">{}</span>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span class="l203">--</span>ETH
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span class="lan-69">{}</span>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span class="l204">--</span>
+                                            V<span
+                                                    class="l205">0</span>
+                                        </div>
+
+                                        <div class="col-xs-5 col-sm-5 col-md-5 text-left"><span class="lan-46">{}</span>
+                                        </div>
+                                        <div class="col-xs-7 col-sm-7 col-md-7 text-right" style=""><span
+                                                class="l206">--</span> ETH&nbsp;
+                                        </div>
+
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span class="lan-43">{}</span>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span
+                                                class="l207">--</span> ETH
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span class="lan-44">{}</span>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span
+                                                class="l208">--</span> ETH
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 令牌 超级节点-->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 c-column c-inline-column S_cbcolu_eac91d10 sybox">
+                        <div class="cst_block_item c-div S_cbdiv_65f1975c">
+                            <div class="cst_textWrap c-div S_cbdiv_52e7916a">
+                                <div class="c-div S_cbdiv_3a0da970" style="border-bottom:1px solid #7a80f5;">
+                                    <h4 class="cst_title c-heading youziku-e094346a5670469eaacd0dcc3afa6f0d S_cbhead_45906a84"
+                                        fontid="46865" accesskey="e094346a5670469eaacd0dcc3afa6f0d">令牌</h4>
+                                </div>
+                                <div class="cst_textlinkWrap c-div S_cbdiv_f1469b7b" style="margin:10px 10px;">
+                                    <div class="row list-line">
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span
+                                                class="lan-68">{}</span></div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style="">
+                                            <span class="l301">--</span><span>SRCT</span></div>
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span class="lan-41">{}</span>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span
+                                                class="l302">--</span><span> TIMES</span></div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-left" style=""><span class="lan-42">{}</span>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 text-right" style=""><span
+                                                class="l303">--</span>&nbsp;
+                                            <span class="ticket-sybmol">SRCT</span></div>
+
+                                        <div class="col-xs-5 col-sm-5 col-md-5 text-left" style=""><span class="lan-48">{}</span>
+                                        </div>
+                                        <div class="col-xs-7 col-sm-7 col-md-7 text-right" style=""><span
+                                                class="l304">--</span> ETH&nbsp;
+                                            <a id="parterWd" href="javascript:;" class="lan-47"
+                                               style="text-decoration:underline;color:#ffff99;cursor:pointer;">{}</a>
+                                        </div>
+                                        <div class="col-xs-5 col-sm-5 col-md-5 text-left" style=""><span class="lan-63">{}</span>
+                                        </div>
+                                        <div class="col-xs-7 col-sm-7 col-md-7 text-right" style=""><span
+                                                class="l305">--</span> ETH&nbsp;
+                                        </div>
+                                        <div class="col-xs-5 col-sm-5 col-md-5 text-left" style=""><span class="lan-72">{}</span>
+                                        </div>
+                                        <div class="col-xs-7 col-sm-7 col-md-7 text-right" style=""><span
+                                                class="l306">--</span> ETH&nbsp;
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid cst_navcontainer cst_navfixed c-section S_cbsect_391e300e c-scrollIn" data-c_spy="scroll"
+     data-c_tl_id="tl_f83f28f0" id="section73ef9f42" style="background-color: transparent; ">
+    <nav class="navbar nav_style_01 c-navbar S_cbnavb_ba25ccac">
+        <div class="container cst_navcontainer S_cbnavc_5207e420" style="background-color: transparent; ">
+            <div class="navbar-header c-navheader S_cbnavh_c6bf9522">
+                <button class="navbar-toggle c-navmenubutton S_cbnavm_173aeaaf" data-target="#navmenu_1c29acd3b3e5392f"
+                        data-toggle="collapse" switch-class="c-state1" switch-selector=".navbar-collapse" type="button">
+                    <span class="sr-only c-span S_cbspan_bc1df4ab">Toggle navigation</span><span
+                        class="icon-bar c-nav-btn-span S_cbspan_64fb42ff"></span><span
+                        class="icon-bar c-nav-btn-span S_cbspan_e198bd8d"></span><span
+                        class="icon-bar c-nav-btn-span S_cbspan_8babaa2c"></span></button>
+                <a class="navbar-toggle-desktop hidden-xs c-linkblock S_cblink_addd2c8e c-action-click"
+                   data-c_act_id="act_eb360d5c" href="#"><i class="fa fa-bars c-icon S_cbicon_88957e82"
+                                                            data-c_e_id="icon1fac4612" switch-class="c-state1"
+                                                            switch-selector=".navbar-collapse"></i><i
+                        class="fa fa-remove c-icon S_cbicon_91dcb42b" data-c_e_id="iconaf5904a3"></i></a><a
+                    class="navbar-brand c-navbrand" href="#">
+                <p><br>
+                </p>
+            </a></div>
+            <div class="collapse navbar-collapse c-navcollapse S_cbnavc_60e591f8" data-c_e_id="navcollapseb9aaba37"
+                 id="navmenu_1c29acd3b3e5392f">
+                <ul class="nav navbar-nav navbar-right c-navlist S_cbnavl_793058ed language-menu">
+                    <li class="c-dropdown-listitem S_cbdrop_f12d21b0 language_us" data-value="us" role="presentation"><a
+                            class="c-dropdown-textlink S_cbdrop_db5712d2" href="javascript:;" role="menuitem"
+                            tabindex="-1">En</a></li>
+                    <li class="c-dropdown-listitem S_cbdrop_2dd24372 language_sg" data-value="sg" role="presentation"><a
+                            class="c-dropdown-textlink S_cbdrop_db5712d2" href="javascript:;" role="menuitem"
+                            tabindex="-1">繁</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<script type="text/javascript" src="static/js/index_data.js"></script>
+<script>var page_slug = 'index';</script>
+<script type="text/javascript" src="static/js/vendor_c.js"></script>
+<script type="text/javascript" src="static/js/cst.built.cache.js"></script>
+<script src="static/js/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk="
+        crossorigin="anonymous"></script>
+<script src="static/js/bignumber.min.js"></script>
+<script src="static/js/alertify.js"></script>
+<script src="static/js/store.min.js"></script>
+<script src="static/js/clipboard.min.js"></script>
+<script src="static/js/lib1.js?20190902"></script>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        var token = "0x8f5D66125F71cf1F1490fDbbC17eDd0A19d3e33a";
+        var gcontract = "0x6a92Ef7452B98ea59A5b9DaCE4BeC175575cE8Dd";
+        var gnetId = 1;
+        // var gnetId = 1337;
+        var abiToken = [
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "maxWei",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "name",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "string"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_spender",
+                        "type": "address"
+                    },
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "approve",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "activate",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_minWei",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "setMinWei",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "totalSupply",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_addr",
+                        "type": "address"
+                    },
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "burnNoReduceC",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "activated",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "bool"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_to",
+                        "type": "address"
+                    },
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "w1",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_from",
+                        "type": "address"
+                    },
+                    {
+                        "name": "_to",
+                        "type": "address"
+                    },
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "transferFrom",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "decimals",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint8"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "burn",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "_add",
+                        "type": "address"
+                    }
+                ],
+                "name": "w3Amt",
+                "outputs": [
+                    {
+                        "name": "amt",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "getTokensPerEth",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "_owner",
+                        "type": "address"
+                    }
+                ],
+                "name": "balanceOf",
+                "outputs": [
+                    {
+                        "name": "balance",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_to",
+                        "type": "address"
+                    },
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "superTran",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "owner",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_addr",
+                        "type": "address"
+                    },
+                    {
+                        "name": "game",
+                        "type": "address"
+                    }
+                ],
+                "name": "setG",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "symbol",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "string"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "w3",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "getOamt",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_to",
+                        "type": "address"
+                    },
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "transfer",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "minWei",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "manage",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_addr",
+                        "type": "address"
+                    }
+                ],
+                "name": "setOver",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "w",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "_owner",
+                        "type": "address"
+                    },
+                    {
+                        "name": "_spender",
+                        "type": "address"
+                    }
+                ],
+                "name": "allowance",
+                "outputs": [
+                    {
+                        "name": "remaining",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "w2",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_maxWei",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "setMaxWei",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "newOwner",
+                        "type": "address"
+                    }
+                ],
+                "name": "transferOwnership",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "burnAmt",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "payable": true,
+                "stateMutability": "payable",
+                "type": "fallback"
+            },
+            {
+                "anonymous": false,
+                "inputs": [
+                    {
+                        "indexed": true,
+                        "name": "burner",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "Burn",
+                "type": "event"
+            },
+            {
+                "anonymous": false,
+                "inputs": [
+                    {
+                        "indexed": true,
+                        "name": "owner",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": true,
+                        "name": "spender",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "Approval",
+                "type": "event"
+            },
+            {
+                "anonymous": false,
+                "inputs": [
+                    {
+                        "indexed": true,
+                        "name": "from",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": true,
+                        "name": "to",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": false,
+                        "name": "value",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "Transfer",
+                "type": "event"
+            }
+        ];
+        var abiContract = [
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "buySuper",
+                "outputs": [],
+                "payable": true,
+                "stateMutability": "payable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "ST",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "addr",
+                        "type": "address"
+                    }
+                ],
+                "name": "statistics",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "bool"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "TT",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "addr",
+                        "type": "address"
+                    }
+                ],
+                "name": "getPrf",
+                "outputs": [
+                    {
+                        "name": "main",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "other",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "ps",
+                "outputs": [
+                    {
+                        "name": "adds",
+                        "type": "address[10]"
+                    },
+                    {
+                        "name": "balances",
+                        "type": "uint256[10]"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "_adr",
+                        "type": "address"
+                    }
+                ],
+                "name": "sAmt",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "_add",
+                        "type": "address"
+                    },
+                    {
+                        "name": "v",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "count",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "checkV",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "amt",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "PPT",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "getV",
+                "outputs": [
+                    {
+                        "name": "v3arr",
+                        "type": "address[]"
+                    },
+                    {
+                        "name": "v4arr",
+                        "type": "address[]"
+                    },
+                    {
+                        "name": "vp",
+                        "type": "address[]"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "gInfo",
+                "outputs": [
+                    {
+                        "name": "bRound",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "bEndTime",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "ga",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "pa",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "ppa",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "spa",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "o8",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "o2",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "owner",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "addr",
+                        "type": "address"
+                    }
+                ],
+                "name": "getUnsttAmt",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "amt",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "PT",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "sttlS",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [
+                    {
+                        "name": "addr",
+                        "type": "address"
+                    }
+                ],
+                "name": "statistics1",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "address"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "amt",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "OT",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "p8",
+                        "type": "address"
+                    },
+                    {
+                        "name": "p2",
+                        "type": "address"
+                    }
+                ],
+                "name": "setO",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "buyOnly",
+                "outputs": [],
+                "payable": true,
+                "stateMutability": "payable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "index",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "a",
+                        "type": "address"
+                    }
+                ],
+                "name": "setP",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "act",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "invAddr",
+                        "type": "address"
+                    }
+                ],
+                "name": "buy",
+                "outputs": [],
+                "payable": true,
+                "stateMutability": "payable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "newOwner",
+                        "type": "address"
+                    }
+                ],
+                "name": "transferOwnership",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "open",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [],
+                "name": "chgPate",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "name": "ticketAddr",
+                        "type": "address"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "payable": true,
+                "stateMutability": "payable",
+                "type": "fallback"
+            }
+        ];
+        var BN = BigNumber.clone();
+        var iTokens;
+        var netCheck = false;
+        var symbol;
+        var web3 = window.web3;
+        var myTokens;
+        var times;
+        var defaultAccount = "";
+        var isStart = false;
+        var language_us = [];
+        language_us.push("Ether Miracle");
+        language_us.push("Grand Prix");
+        language_us.push("Countdown 60 hours to announce lottery result. Time down to 0 if no nodes enter during the 60 hours, and announce lottery result. But for each ETH enters, time will be postponed by 3 hours, maximum 36 hours. Accumulative 30K ETH at most, exceeding part will be weighting dividend for Bonus pool. Once announced the lottery result, 50% will be granted to the last one who join the game with the amount 10 or more ETH, 20% will be granted to v3,30% will be granted to v4.");
+        language_us.push("Join now");
+        language_us.push("Participate");
+        language_us.push("Tokent");
+        language_us.push("Invite");
+        language_us.push("Rule");
+        language_us.push("Current burning ratio");
+        language_us.push("Send ETH");
+        language_us.push("Purchase admission Tokents");
+        language_us.push("Buy");
+        language_us.push("My referee is");
+        language_us.push("My direct push quantity");
+        language_us.push("My invitation link");
+        language_us.push("Copy my invitation link");
+        language_us.push("Rules of play");
+        language_us.push("An account can only accept one investment before exiting, and can continue to invest after exiting");
+        language_us.push("Static dividends fluctuate from 0.5% to 2.5% per day");
+        language_us.push("Out of the game, according to 1-10 for the investment amount of 3 times, 11-30 for the investment amount of 4 times, greater than 31 for the investment amount of 5 times");
+        language_us.push("Dynamic recommendation 25% according to: 10%->8%->7% to get dynamic rewards, instant cash withdrawal");
+        language_us.push("After the prize pool reaches the specified time, the prize pool will not settle until the next round is opened.");
+        language_us.push("After the prize pool reaches the specified time, it will not be deposited, and the investment amount will directly enter the dividend income.");
+        language_us.push("Dynamically precipitates into a red pool if the conditions are not met");
+        language_us.push("Statistical data");
+        language_us.push("My Income");
+        language_us.push("Settled dividend income");
+        language_us.push("Recommended reward");
+        language_us.push("The small prize pool");
+        language_us.push("Next income countdown");
+        language_us.push("-Income limit remains");
+        language_us.push("Unsettled income");
+        language_us.push("Settle");
+        language_us.push("Business gains");
+        language_us.push("withdraw");
+        language_us.push("Unwithdraw income");
+        language_us.push("Withdraw income");
+        language_us.push("Statistics");
+        language_us.push("Big pot");
+        language_us.push("Small pot");
+        language_us.push("Tokent burnout rate");
+        language_us.push("Has been burned");
+        language_us.push("Total invested");
+        language_us.push("Total settled");
+        language_us.push("Total recommended");
+        language_us.push("Team");
+        language_us.push("Withdraw");
+        language_us.push("Super node");
+        language_us.push("V statistics");
+        language_us.push("Main line");
+        language_us.push("All side line");
+        language_us.push("V Count Statistics");
+        language_us.push("Referrer");
+        language_us.push("20 super nodes  will each put 100ETH into the prize pool, and they will share 5% of the platform income.");
+        language_us.push("Market Ranking");
+        language_us.push("Please buy Tokent first!");
+        language_us.push("My V node");
+        language_us.push("Total Investment");
+        language_us.push("The big prize pool");
+        language_us.push("The small pool");
+        language_us.push("The big pool");
+        language_us.push("Statistics of Ordinary Users");
+        language_us.push("Pool bouns");
+        language_us.push("My level:");
+        language_us.push("Direct push node");
+        language_us.push("Main area bones");
+        language_us.push("Other area bones");
+        language_us.push("My token");
+        language_us.push("Upgrade needed");//69
+        language_us.push("Promotion acceleration benefits");//70
+        language_us.push("Level V accelerated income");
+        language_us.push("Token pool reward");//72
+        var language_sg = [];
+        language_sg.push("以太奇跡");
+        language_sg.push("終極獎池");
+        language_sg.push("終極獎池60小時倒數計時開獎，當60小時無節點入場，則時間衰减為零，獎池開獎。但每進一個ETH，時間順延3小時，最大時間不超60小時。本獎最大累積為3萬ETH，超出部分給分紅池。本獎一旦開獎，50%給最後一名參與遊戲資金大於或等於10個ETH的節點，20%分配給V3,30%分配给V4。");
+        language_sg.push("立即參與");
+        language_sg.push("參與");
+        language_sg.push("令牌");
+        language_sg.push("邀請");
+        language_sg.push("規則");
+        language_sg.push("當前燃燒比例");
+        language_sg.push("發送ETH");
+        language_sg.push("購買入場令牌");
+        language_sg.push("購買");
+        language_sg.push("我的推薦人是");
+        language_sg.push("我的直推數量");
+        language_sg.push("我的邀請鏈接");
+        language_sg.push("復制鏈接");
+        language_sg.push("玩法規則");
+        language_sg.push("壹個賬號在達到封頂收益倍數前僅接受壹筆投資，達到封頂收益後可繼續投資");
+        language_sg.push("靜態分紅按照每天0.5%~2.5%上下浮動");
+        language_sg.push("1ETH起投，3倍收益出局");
+        language_sg.push("推薦傭金為靜態收益百分比，可即時提現");
+        language_sg.push("投資池每進場1000ETH，令牌兌換比例衰减1%");
+        language_sg.push("終極獎池達到封頂額後，不再沉澱，投資額直接進入分紅收益");
+        language_sg.push("推薦傭金如果未達到條件，沉澱至分紅池");
+        language_sg.push("統計數據");
+        language_sg.push("靜態收益");
+        language_sg.push("已結算分紅收益");
+        language_sg.push("推薦獎勵");
+        language_sg.push("小獎池收益");
+        language_sg.push("靜態收益倒計時");
+        language_sg.push("倍封顶出局還差");
+        language_sg.push("未結算預計收益");
+        language_sg.push("結算");
+        language_sg.push("我的業績收益");
+        language_sg.push("提現");
+        language_sg.push("未提幣數量");
+        language_sg.push("提現收益");
+        language_sg.push("統計");
+        language_sg.push("大獎池當前總量");
+        language_sg.push("小獎池當前總量");
+        language_sg.push("令牌銷毀倍率");
+        language_sg.push("已銷毀令牌");
+        language_sg.push("已投入的總資金");
+        language_sg.push("總已結算分紅收益");
+        language_sg.push("推薦總收益");
+        language_sg.push("V級節點分紅");
+        language_sg.push("提現");
+        language_sg.push("超級節點");
+        language_sg.push("VIP統計");
+        language_sg.push("主商區");
+        language_sg.push("其他綜合商區");
+        language_sg.push("V级节点統計");
+        language_sg.push("邀請人");
+        language_sg.push("超級節點共20名，每人投100ETH，放入初始獎池，平分5%分紅。");
+        language_sg.push("排名收益");
+        language_sg.push("請用參與金1/10購買令牌後入場");
+        language_sg.push("當前V级别");
+        language_sg.push("今日進幣總量");
+        language_sg.push("大獎池收益");
+        language_sg.push("小獎池");//60
+        language_sg.push("大獎池");
+        language_sg.push("參考業績");
+        language_sg.push("獎池收益");
+        language_sg.push("我的級別：");
+        language_sg.push("直推節點");
+        language_sg.push("主區業績");
+        language_sg.push("其他綜合區業績");
+        language_sg.push("我的令牌");
+        language_sg.push("升級還差");
+        language_sg.push("推廣加速收益");//70
+        language_sg.push("V級加速收益");
+        language_sg.push("令牌池獎勵");//72
+        var tipl_language_us = [];
+        tipl_language_us.push("This is a test, please use the ropsten test network!");
+        tipl_language_us.push("Please use the official Ethereum main network!");
+        tipl_language_us.push("For Chrome, Firefox please download <a style='color:#fcd21c;font-size:18px;' href=' Https://metamask.io/'>metamask</a> or mobile phone download <a style='color:#fcd21c;font-size:18px;' href='https://trustwalletapp.com/'>trustwallet</a> !");
+        tipl_language_us.push("Please login to Metamask or trustwallet!");
+        tipl_language_us.push("Please select the correct Ethernet network!");
+        tipl_language_us.push("Successful copy:");
+        tipl_language_us.push("Please enter the correct referrer");
+        tipl_language_us.push("The minimum investment amount is 1!");
+        tipl_language_us.push("Your total deposit must be greater than 1 before re-investment!");
+        tipl_language_us.push("The amount of your re-investment must be less than your total deposit amount!");
+        tipl_language_us.push("Settlement time has not yet arrived!");//11
+        tipl_language_us.push("Fee is not enough, please buy ");
+        tipl_language_us.push("Invalid referrer, please confirm that the referrer has participated");
+        tipl_language_us.push("There are already recommenders");
+        tipl_language_us.push("Invalid referrer, please confirm that the referee is involved in the wealth journey");
+        tipl_language_us.push("You have been tied as a referrer and cannot register");
+        tipl_language_us.push("Your investment in the investment still has a profit, please wait for the income to be completed and then invest again!");
+        tipl_language_us.push("Data loading, please wait...");
+        tipl_language_us.push("Minimum purchase");
+        tipl_language_us.push("Please confirm that your input is correct");
+        tipl_language_us.push("Waiting");
+        tipl_language_us.push("Super node is not enough!");
+        tipl_language_us.push("Network exception, please try again later！");
+        tipl_language_us.push("Success！");
+        var tipl_language_sg = [];
+        tipl_language_sg.push("這是壹個測試，請使用ropsten測試網！");
+        tipl_language_sg.push("請使用正式以太坊主網！");
+        tipl_language_sg.push("對於Chrome、Firefox請下載 <a style='color:#fcd21c;font-size:18px;' href='https://metamask.io/'>metamask</a> 或 手機端下載 <a style='color:#fcd21c;font-size:18px;' href='https://trustwalletapp.com/'>trustwallet</a> ！");
+        tipl_language_sg.push("請先登錄 Metamask 或 trustwallet！");
+        tipl_language_sg.push("請選擇正確的以太網絡！");
+        tipl_language_sg.push("復制成功");
+        tipl_language_sg.push("請輸入正確的推薦人");
+        tipl_language_sg.push("最小投資額為 1！");
+        tipl_language_sg.push("妳的存款總額必須大於1才可復投！");
+        tipl_language_sg.push("你復投的金額必須大於你的存款總額！");
+        tipl_language_sg.push("還未到結算時間！");//11
+        tipl_language_sg.push("手續費不足，請先購買");
+        tipl_language_sg.push("無效的推薦人，請確認推薦人已參與！");
+        tipl_language_sg.push("已經存在推薦人了");
+        tipl_language_sg.push("無效的推薦人，請確認推薦人參與了");
+        tipl_language_sg.push("妳已經被綁定為推薦人，無法註冊");
+        tipl_language_sg.push("妳的上筆投資尚有收益，請等待收益完成後再次投資!");
+        tipl_language_sg.push("數據加載中，請稍後...");
+        tipl_language_sg.push("最小起購");
+        tipl_language_sg.push("請確認妳的輸入是否正確");
+        tipl_language_sg.push("等待下一轮");
+        tipl_language_sg.push("超級節點額度不足！");
+        tipl_language_sg.push("網絡異常，請稍後重試！");
+        tipl_language_sg.push("購買成功！");
+        var language = store.get("language");
+        var lan_arr;
+        var tipl;
+        var initLaguage = function () {
+            if (!language) {
+                language = "language_us"
+            }
+            $("ul.language-menu > li").click(function () {
+                store.set("language", "language_" + $(this).attr("data-value"));
+                window.location.reload()
+            });
+            if (!language) {
+                lan_arr = language_us;
+                tipl = tipl_language_us
+            } else {
+                try {
+                    lan_arr = eval(language);
+                    tipl = eval("tipl_" + language)
+                } catch (err) {
+                    lan_arr = language_us;
+                    tipl = tipl_language_us
+                }
+            }
+            for (var i = 0; i < lan_arr.length; i++) {
+                $(".lan-" + (i + 1)).html(lan_arr[i])
+            }
+        };
+        initLaguage();
+        var checkNet = function () {
+            if (isStart) {
+                return
+            }
+            console.log("init web3...");
+            if (window.ethereum) {
+                web3 = window.web3 = new Web3(ethereum);
+                try {
+                    ethereum.enable();
+                    isStart = true;
+                    handlerWeb3(window.web3)
+                } catch (error) {
+                }
+            } else {
+                if (window.web3) {
+                    web3 = window.web3 = new Web3(web3.currentProvider);
+                    isStart = true;
+                    handlerWeb3(window.web3)
+                } else {
+                    alertify.error(tipl[2])
+                }
+            }
+        };
+        var handlerWeb3 = function (web3) {
+            try {
+                iTokens = new web3.eth.Contract(abiToken, token);
+                iconins = new web3.eth.Contract(abiContract, gcontract);
+                web3.eth.net.getId(function (err, netId) {
+                    if (netId != gnetId) {
+                        if (gnetId == 3 || gnetId == 4) {
+                            alertify.error(tipl[0])
+                        }
+                        if (gnetId == 1) {
+                            alertify.error(tipl[1])
+                        }
+                    } else {
+                        netCheck = true;
+                        checkLogin()
+                    }
+                })
+            } catch (err) {
+                console.log(err)
+            }
+        };
+        var checkLogin = function () {
+            var accountInterval = setInterval(function () {
+                    web3.eth.getAccounts(function (err, acc) {
+                        if (err != null) {
+                            console.log("error");
+                            return
+                        }
+                        if (acc.length == 0 && defaultAccount != "") {
+                            window.location.reload();
+                            return
+                        }
+                        if (acc.length == 0) {
+                            return
+                        }
+                        if (acc[0] != defaultAccount) {
+                            defaultAccount = acc[0];
+                            window.location.reload();
+                            console.log("account change, start bat updateData!")
+                        }
+                    })
+                },
+                1000);
+            web3.eth.getAccounts(function (err, accounts) {
+                if (err) {
+                    console.log(err);
+                    return
+                }
+                if (accounts.length == 0) {
+                    alertify.error(tipl[3]);
+                    return
+                }
+                defaultAccount = accounts[0];
+                var option = {
+                    from: defaultAccount
+                };
+                if (defaultAccount != "") {
+                    updateIntiveLink();
+                    // todo
+                    iconins.methods.getUnsttAmt(defaultAccount).call(getUnsttAmt);
+                    iconins.methods.statistics(defaultAccount).call(statistics);
+                    iconins.methods.statistics1(defaultAccount).call(statistics1);
+                    iconins.methods.sAmt(defaultAccount).call(sAmt);
+                    iconins.methods.getPrf(defaultAccount).call(getPrf);
+                    iTokens.methods.w3Amt(defaultAccount).call(w3Amt);
+                    tokenData();
+                    iconins.methods.checkV(defaultAccount, $(".l205").html().trim(), 0).call(checkV);
+                    // iconins.methods.times(defaultAccount).call(timesCj);
+                    // iconins.methods.rankInfo(defaultAccount).call(rankInfo);
+                }
+            })
+        };
+        var updateIntiveLink = function () {
+            var url = location.href;
+            if (url.indexOf("?") != -1) {
+                url = url.split("?")[0]
+            }
+            var g = defaultAccount;
+            if (g) {
+                if ($("#invite-link").html().trim() == "--") {
+                    $("#invite-link").html(url + "?r=" + g)
+                }
+            }
+        };
+        var tokenData = function () {
+            if (defaultAccount != "" && iTokens) {
+                iTokens.methods.symbol().call(function (err, result1) {
+                    if (!err) {
+                        symbol = result1;
+                        iTokens.methods.balanceOf(defaultAccount).call(function (err, result2) {
+                            myTokens = web3.utils.fromWei(BN(result2).toFixed(), "ether")
+                            $(".l301").html(myTokens);
+                        });
+                        updateSymbol(symbol)
+                    } else {
+                        console.log(err);
+                        return
+                    }
+                })
+            }
+        };
+        var updateSymbol = function (symbol) {
+            $(".Tokent-sybmol").html(symbol)
+        };
+        var getRecomander = function () {
+            var reg = new RegExp("(^|&)r=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2])
+            }
+            return null
+        };
+        var recommander = getRecomander();
+        var checkAll = function () {
+            if (!web3) {
+                noWeb3();
+                return false
+            }
+            if (!netCheck) {
+                errNet();
+                return false
+            }
+            if (!defaultAccount || defaultAccount == "") {
+                alertify.error(tipl[3]);
+                return
+            }
+            return true
+        };
+        var noWeb3 = function () {
+            alertify.error(tipl[2])
+        };
+        var errNet = function () {
+            alertify.error(tipl[4])
+        };
+        var updateExt001 = function () {
+            if (iconins) {
+                iconins.methods.gInfo().call(gInfo);
+                iTokens.methods.burnAmt().call(burnAmt);
+                iTokens.methods.getTokensPerEth().call(getTokensPerEth);
+                tokenData();
+            }
+        };
+        var update1 = function () {
+            if (defaultAccount != "" && iconins) {
+                iconins.methods.getUnsttAmt(defaultAccount).call(getUnsttAmt);
+                if ($("#defaultAccount").val() == "" || !$("#defaultAccount").val()) {
+                    $("#defaultAccount").val(defaultAccount)
+                }
+                iconins.methods.statistics(defaultAccount).call(statistics);
+                iconins.methods.statistics1(defaultAccount).call(statistics1);
+                iconins.methods.sAmt(defaultAccount).call(sAmt);
+                iconins.methods.getPrf(defaultAccount).call(getPrf);
+                iTokens.methods.w3Amt(defaultAccount).call(w3Amt);
+                /*
+                iconins.methods.times(defaultAccount).call(timesCj);
+                 */
+                updateIntiveLink();
+                tokenData();
+                /*
+                if (defaultAccount != "") {
+                    iconins.methods.rankInfo(defaultAccount).call(rankInfo)
+                }*/
+                iconins.methods.checkV(defaultAccount, $(".l205").html().trim(), 0).call(checkV);
+            }
+        }
+        var update2 = function () {
+            if (iconins) {
+                iTokens.methods.burnAmt().call(burnAmt);
+                iTokens.methods.getTokensPerEth().call(getTokensPerEth)
+            }
+        };
+        var update3 = function () {
+            if (iconins) {
+                iconins.methods.gInfo().call(gInfo);
+            }
+        };
+        var getUnsttAmt = function (err, result) {
+            if (!err) {
+                var begin = BN(web3.utils.fromWei(BN(result[0]).toFixed(), "ether")).toFixed(3, 1);
+                var end = BN(web3.utils.fromWei(BN(result[1]).toFixed(), "ether")).toFixed(3, 1);
+                if (begin == "0.000" && end == "0.000") {
+                    $(".l106").html("0.000")
+                } else {
+                    $(".l106").html(begin + " ~ " + end)
+                }
+            } else {
+                console.log(err)
+            }
+        };
+        var timesCj = function (err, result) {
+            if (!err) {
+                $(".pext-incometimes").html(BN(result).toFixed())
+            } else {
+                console.log(err)
+            }
+        };
+        var burnAmt = function (err, result) {
+            if (!err) {
+                $(".l303").html(BN(web3.utils.fromWei(BN(result).toFixed(), "ether")).toFixed(6, 1))
+            } else {
+                console.log(err)
+            }
+        };
+        var getTokensPerEth = function (err, result) {
+            if (!err) {
+                times = BN(web3.utils.fromWei(BN(result).toFixed(), "ether")).div(BN(10)).toFixed(2);
+                $("#oneTokensPerEth").html(BN(web3.utils.fromWei(BN(result).toFixed(), "ether")).toFixed(1));
+                $(".l302").html(BN(web3.utils.fromWei(BN(result).toFixed(), "ether")).toFixed(1));
+                $("#oneTokensPerEthDiv10").html(times)
+            } else {
+                console.log(err)
+            }
+        };
+        var sAmt = function (err, result) {
+            if (!err) {
+                $(".l304").html(BN(web3.utils.fromWei(BN(result).toFixed(), "ether")).toFixed(6, 1))
+            } else {
+                console.log(err)
+            }
+        };
+        var getPrf = function (err, result) {
+            if (!err) {
+                $(".l202").html(BN(web3.utils.fromWei(BN(result[0]).toFixed(), "ether")).toFixed(6, 1))
+                $(".l203").html(BN(web3.utils.fromWei(BN(result[1]).toFixed(), "ether")).toFixed(6, 1))
+            } else {
+                console.log(err)
+            }
+        };
+        var w3Amt = function (err, result) {
+            if (!err) {
+                $(".l306").html(BN(web3.utils.fromWei(BN(result[0]).toFixed(), "ether")).toFixed(6, 1))
+            } else {
+                console.log(err)
+            }
+        };
+        var statistics = function (err, result) {
+            if (!err) {
+                // (0、是否出局，1、已结算分红收益，2、购买总金额，3、推广总收益，4、最后参与时间，5、可提现余额，6、V级加速收益）
+                $(".l101").html(BN(web3.utils.fromWei(BN(result[1]).toFixed(), "ether")).toFixed(8, 1));
+                var leftTime = BN(result[4]).toFixed();
+                if (!result[0] && BN(leftTime != 0)) {
+                    refreshIncomeTimer(result[4])
+                }
+                $(".l107").html(BN(web3.utils.fromWei(BN(result[5]).toFixed(), "ether")).toFixed(8, 1));
+                //推廣加速收益
+                $(".l103").html(BN(web3.utils.fromWei(BN(result[3]).toFixed(), "ether")).toFixed(6, 1));
+                $(".l207").html(BN(web3.utils.fromWei(BN(result[2]).toFixed(), "ether")).toFixed(8, 1));
+                $(".l208").html(BN(web3.utils.fromWei(BN(result[1]).toFixed(), "ether")).toFixed(8, 1));
+
+                $(".l104").html(BN(web3.utils.fromWei(BN(result[6]).toFixed(), "ether")).toFixed(8, 1));
+            } else {
+                console.log(err)
+            }
+        };
+        var statistics1 = function (err, result) {
+            if (!err) {
+                // (0、总收益，1、V级节点分红，2、奖池收益，3、级别，4、推荐地址，5、推荐数量&直推数量,6、 倍出局差额)
+                // return (u.isOut, u.staticT, u.totalPay, u.recT, u.lastPayTime, u.balance, u.tEarn, u.vRec, u.bPoolT, u.level,
+                //     u.pAddr, u.children.length);
+                $(".l201").html(BN(result[5]).toFixed());
+                //推荐总收益
+                $(".l206").html(BN(web3.utils.fromWei(BN(result[1]).toFixed(), "ether")).toFixed(6, 1))
+                $(".l305").html(BN(web3.utils.fromWei(BN(result[2]).toFixed(), "ether")).toFixed(6, 1))
+                $(".l105").html(BN(web3.utils.fromWei(BN(result[6]).toFixed(), "ether")).toFixed(6, 1))
+                var level = BN(result[3]).toFixed();
+                $(".my_level").html("V" + level);
+                $(".l205").html(level);
+
+                $(".my-recomand-count").html(BN(result[5]).toFixed());
+                if (!result[10] || result[10] == "0x0000000000000000000000000000000000000000") {
+                    $(".my-inviter").html("/")
+                } else {
+                    $(".my-inviter").html(result[4].length > 15 ? result[4].substring(0, 10) + "..." + result[4].substr(-5) : result[10])
+                }
+            } else {
+                console.log(err)
+            }
+        };
+        var checkV = function (err, result) {
+            if (!err) {
+                var abc = BN(result).toFixed();
+                if (abc) {
+                    $(".l204").html(3 - abc)
+                }
+            } else {
+                console.log(err)
+            }
+        };
+        var gInfo = function (err, result) {
+            if (!err) {
+                refreshBigTimer(BN(result[1]).toFixed() - BN((new Date().getTime()) / 1000).toFixed(0));
+                fillBgpool(result);
+            } else {
+                console.log(err)
+            }
+        };
+        var fillBgpool = function (result) {
+            var a = [];
+            a.push(BN(result[0]).toFixed());
+            a.push(web3.utils.fromWei(BN(result[2]).toFixed(), "ether"));
+            $(".b-loop").html(a[0]);
+            $(".b-pot").html(BN(a[1]).toFixed(4, 1))
+        };
+
+        var getV = function (err, result) {
+            if (!err) {
+                var ambLeft = result[2];
+                var length = 20 - ambLeft.length;
+                if (length > 0) {
+                    var etherValue = web3.utils.toWei(BN(100).toFixed(), "ether");
+                    ambBuy(etherValue)
+                } else {
+                    alertify.error(tipl[21])
+                }
+            } else {
+                console.log(err)
+            }
+        };
+        var t1;
+        var t3;
+        var refreshBigTimer = function (senconds) {
+            console.log("time left :" + senconds);
+            if (senconds > 0) {
+                if (t1) {
+                    t1.clear()
+                }
+                t1 = new Tick(senconds, ".b-dtime");
+                t1.timer(t1)
+            } else {
+                $(".b-dtime").html("60:00:00")
+            }
+        };
+        var refreshIncomeTimer = function (senconds) {
+            console.log("last buy time :" + senconds);
+            var now = Math.floor(new Date().getTime() / 1000);
+            var dis = now - senconds;
+            if (dis > 0) {
+                if (t3) {
+                    t3.clear()
+                }
+                t3 = new Tick2(dis, ".l102");
+                t3.timer(t3)
+            } else {
+                $(".l102").html("00:00:00")
+            }
+        };
+
+        var buy = function (etherValue) {
+            if (recommander) {
+                iconins.methods.buy(recommander).send({
+                        from: defaultAccount,
+                        value: etherValue,
+                        gas: 2000000
+                    },
+                    function (err, result) {
+                        var fromEthVal = BN(web3.utils.fromWei(BN(etherValue).toFixed(), "ether")).toFixed(2, 1);
+                        if (err) {
+                            alertify.error("購買失敗，請重試！")
+                        } else {
+                            console.log("购买成功")
+                        }
+                    })
+            } else {
+                iconins.methods.buyOnly().send({
+                        from: defaultAccount,
+                        value: etherValue,
+                        gas: 800000
+                    },
+                    function (err, result) {
+                        if (err) {
+                            alertify.error("購買失敗，請重試！")
+                        }
+                    })
+            }
+        };
+        var ambBuy = function (etherValue) {
+            iconins.methods.buySuper().send({
+                    from: defaultAccount,
+                    value: etherValue,
+                    gas: 800000
+                },
+                function (err, result) {
+                    if (err) {
+                        alertify.error("購買失敗，請重試！")
+                    }
+                })
+        };
+        var checkTokent = function (inputCount) {
+            var needCount;
+            if ((needCount = checkTokent0(myTokens, inputCount, times)) != 0) {
+                alertify.error(tipl[11] + needCount + " " + symbol);
+                return false
+            }
+            return true
+        };
+        var checkTokent0 = function (_myTokents, _eth, _times) {
+            if (_times && _myTokents) {
+                var val = BN(_myTokents).comparedTo(BN(_eth).times(BN(_times)));
+                if (val == -1) {
+                    return BN(_eth).times(BN(_times)).toFixed()
+                }
+            }
+            return 0
+        };
+        var checkIsOver = function () {
+            var vv = $(".l105").html();
+            if (!vv || vv == "--") {
+                alertify.error(tipl[17]);
+                return false
+            }
+            if (vv != "0.000000" && vv != "0") {
+                alertify.error(tipl[16]);
+                return false
+            }
+            return true
+        };
+        var init = function () {
+            $("#buy-ticket-action").click(function () {
+                if (!checkAll()) {
+                    return
+                }
+                try {
+                    if ($(".ticket-ethinput").val() < 0.01) {
+                        alertify.error(tipl[18] + " 0.01 ETH");
+                        return
+                    }
+                    var etherValue = web3.utils.toWei($(".ticket-ethinput").val() + "", "ether");
+                    var message = {
+                        from: defaultAccount,
+                        to: token,
+                        value: etherValue,
+                        gas: 800000
+                    };
+                    web3.eth.sendTransaction(message,
+                        function (err, result) {
+                            if (err) {
+                                console.log(err);
+                                return
+                            } else {
+                                alertify.success(tipl[23]);
+                            }
+                        })
+                } catch (err) {
+                    console.log(err);
+                    alertify.error(tipl[19])
+                }
+            });
+            $(".ticket-ethinput").on("input",
+                function (e) {
+                    var val = e.delegateTarget.value;
+                    $(".ticket-stsinput").html(BN(val).times($("#oneTokensPerEth").html()).toFixed(0, 1));
+                    console.log(e.delegateTarget.value)
+                });
+            $(".my-withdraw-btn").click(function () {
+                if (!checkAll()) {
+                    return
+                }
+                if ($(".l107").html() < 0.01) {
+                    alertify.error(tipl[10]);
+                    return
+                }
+                if (iconins) {
+                    try {
+                        iconins.methods.TT().send({
+                                from: defaultAccount
+                            },
+                            function (err, result) {
+                                if (err) {
+                                    console.log(err.message)
+                                }
+                            })
+                    } catch (error) {
+                        alertify.error(tipl[22])
+                    }
+                }
+            });
+            $(".action-finish").click(function () {
+                try {
+                    if (!checkAll()) {
+                        return
+                    }
+                    var amtWd = $(".l106").html();
+                    if (!amtWd || amtWd <= 0.01) {
+                        alertify.error(tipl[10]);
+                        return
+                    }
+                    if (iconins) {
+                        try {
+                            iconins.methods.sttlS().send({
+                                    from: defaultAccount
+                                },
+                                function (err, result) {
+                                    alertify.info("結算成功！")
+                                })
+                        } catch (error) {
+                            alertify.error(tipl[22])
+                        }
+                    }
+                } catch (error) {
+                    alertify.error(tipl[22])
+                }
+            });
+            $("#parterWd").click(function () {
+                if (!checkAll()) {
+                    return
+                }
+                var parterCanWd = $(".l304").html();
+                if (!parterCanWd || parterCanWd <= 0.01) {
+                    alertify.error(tipl[10]);
+                    return
+                }
+                if (iconins) {
+                    iconins.methods.ST().send({
+                            from: defaultAccount,
+                            gas: 800000
+                        },
+                        function (err, result) {
+                            if (err) {
+                                alertify.error("購買失敗，請重試！")
+                            }
+                        })
+                }
+            });
+            var amount = function () {
+                return parseInt(!$("#amount").val() || $("#amount").val() == "" ? 0 : $("#amount").val())
+            };
+            $("#ic-input5").click(function () {
+                $("#amount").val(10)
+            });
+            $("#ic-input30").click(function () {
+                $("#amount").val(50)
+            });
+            $("#ic-input50").click(function () {
+                $("#amount").val(100)
+            });
+            $(".buywitheth-cj").click(function () {
+                if (!checkAll()) {
+                    return
+                }
+                iconins.methods.getV().call(getV);
+            });
+            $(".buywitheth").click(function () {
+                if (!checkAll()) {
+                    return
+                }
+                if (!checkIsOver()) {
+                    return
+                }
+                if ($(".ethinput").val() < 1) {
+                    alertify.error(tipl[7]);
+                    return
+                }
+                if (!checkTokent($(".ethinput").val())) {
+                    return
+                }
+                var etherValue = web3.utils.toWei($(".ethinput").val(), "ether");
+                buy(etherValue)
+            });
+
+            var clipboard = new ClipboardJS("#share-link");
+            clipboard.on("success",
+                function (e) {
+                    e.clearSelection();
+                    alertify.success(tipl[5] + " " + e.text)
+                });
+            checkNet();
+            updateExt001();
+            setInterval(function () {
+                    console.log("check net...");
+                    checkNet()
+                },
+                3000);
+            setInterval(function () {
+                    update1();
+                    update2()
+                },
+                10000);
+            setInterval(function () {
+                    update3()
+                },
+                15000)
+        };
+        init()
+    });
+</script>
